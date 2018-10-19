@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC5EC5B2179E85900FBE21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EC5A2179E85900FBE21E /* AppDelegate.swift */; };
+		9FC5EC5D2179E85900FBE21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EC5C2179E85900FBE21E /* ViewController.swift */; };
+		9FC5EC602179E85900FBE21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EC5E2179E85900FBE21E /* Main.storyboard */; };
+		9FC5EC622179E85A00FBE21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EC612179E85A00FBE21E /* Assets.xcassets */; };
+		9FC5EC652179E85A00FBE21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EC632179E85A00FBE21E /* LaunchScreen.storyboard */; };
+		9FC5EC702179E85A00FBE21E /* PicassoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EC6F2179E85A00FBE21E /* PicassoTests.swift */; };
+		9FC5EC7B2179E85A00FBE21E /* PicassoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EC7A2179E85A00FBE21E /* PicassoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FC5EC6C2179E85A00FBE21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC5EC4F2179E85900FBE21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC5EC562179E85900FBE21E;
+			remoteInfo = Picasso;
+		};
+		9FC5EC772179E85A00FBE21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC5EC4F2179E85900FBE21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC5EC562179E85900FBE21E;
+			remoteInfo = Picasso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FC5EC572179E85900FBE21E /* Picasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5EC5A2179E85900FBE21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC5EC5C2179E85900FBE21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FC5EC5F2179E85900FBE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC5EC612179E85A00FBE21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC5EC642179E85A00FBE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FC5EC662179E85A00FBE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC5EC6B2179E85A00FBE21E /* PicassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5EC6F2179E85A00FBE21E /* PicassoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicassoTests.swift; sourceTree = "<group>"; };
+		9FC5EC712179E85A00FBE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC5EC762179E85A00FBE21E /* PicassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5EC7A2179E85A00FBE21E /* PicassoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicassoUITests.swift; sourceTree = "<group>"; };
+		9FC5EC7C2179E85A00FBE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC5EC542179E85900FBE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC682179E85A00FBE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC732179E85A00FBE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC5EC4E2179E85900FBE21E = {
+			isa = PBXGroup;
+			children = (
+				9FC5EC592179E85900FBE21E /* Picasso */,
+				9FC5EC6E2179E85A00FBE21E /* PicassoTests */,
+				9FC5EC792179E85A00FBE21E /* PicassoUITests */,
+				9FC5EC582179E85900FBE21E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC5EC582179E85900FBE21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5EC572179E85900FBE21E /* Picasso.app */,
+				9FC5EC6B2179E85A00FBE21E /* PicassoTests.xctest */,
+				9FC5EC762179E85A00FBE21E /* PicassoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC5EC592179E85900FBE21E /* Picasso */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5EC5A2179E85900FBE21E /* AppDelegate.swift */,
+				9FC5EC5C2179E85900FBE21E /* ViewController.swift */,
+				9FC5EC5E2179E85900FBE21E /* Main.storyboard */,
+				9FC5EC612179E85A00FBE21E /* Assets.xcassets */,
+				9FC5EC632179E85A00FBE21E /* LaunchScreen.storyboard */,
+				9FC5EC662179E85A00FBE21E /* Info.plist */,
+			);
+			path = Picasso;
+			sourceTree = "<group>";
+		};
+		9FC5EC6E2179E85A00FBE21E /* PicassoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5EC6F2179E85A00FBE21E /* PicassoTests.swift */,
+				9FC5EC712179E85A00FBE21E /* Info.plist */,
+			);
+			path = PicassoTests;
+			sourceTree = "<group>";
+		};
+		9FC5EC792179E85A00FBE21E /* PicassoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5EC7A2179E85A00FBE21E /* PicassoUITests.swift */,
+				9FC5EC7C2179E85A00FBE21E /* Info.plist */,
+			);
+			path = PicassoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC5EC562179E85900FBE21E /* Picasso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5EC7F2179E85A00FBE21E /* Build configuration list for PBXNativeTarget "Picasso" */;
+			buildPhases = (
+				9FC5EC532179E85900FBE21E /* Sources */,
+				9FC5EC542179E85900FBE21E /* Frameworks */,
+				9FC5EC552179E85900FBE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picasso;
+			productName = Picasso;
+			productReference = 9FC5EC572179E85900FBE21E /* Picasso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FC5EC6A2179E85A00FBE21E /* PicassoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5EC822179E85A00FBE21E /* Build configuration list for PBXNativeTarget "PicassoTests" */;
+			buildPhases = (
+				9FC5EC672179E85A00FBE21E /* Sources */,
+				9FC5EC682179E85A00FBE21E /* Frameworks */,
+				9FC5EC692179E85A00FBE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC5EC6D2179E85A00FBE21E /* PBXTargetDependency */,
+			);
+			name = PicassoTests;
+			productName = PicassoTests;
+			productReference = 9FC5EC6B2179E85A00FBE21E /* PicassoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FC5EC752179E85A00FBE21E /* PicassoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5EC852179E85A00FBE21E /* Build configuration list for PBXNativeTarget "PicassoUITests" */;
+			buildPhases = (
+				9FC5EC722179E85A00FBE21E /* Sources */,
+				9FC5EC732179E85A00FBE21E /* Frameworks */,
+				9FC5EC742179E85A00FBE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC5EC782179E85A00FBE21E /* PBXTargetDependency */,
+			);
+			name = PicassoUITests;
+			productName = PicassoUITests;
+			productReference = 9FC5EC762179E85A00FBE21E /* PicassoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC5EC4F2179E85900FBE21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = EsauriTeam;
+				TargetAttributes = {
+					9FC5EC562179E85900FBE21E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9FC5EC6A2179E85A00FBE21E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9FC5EC562179E85900FBE21E;
+					};
+					9FC5EC752179E85A00FBE21E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9FC5EC562179E85900FBE21E;
+					};
+				};
+			};
+			buildConfigurationList = 9FC5EC522179E85900FBE21E /* Build configuration list for PBXProject "Picasso" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC5EC4E2179E85900FBE21E;
+			productRefGroup = 9FC5EC582179E85900FBE21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC5EC562179E85900FBE21E /* Picasso */,
+				9FC5EC6A2179E85A00FBE21E /* PicassoTests */,
+				9FC5EC752179E85A00FBE21E /* PicassoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC5EC552179E85900FBE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EC652179E85A00FBE21E /* LaunchScreen.storyboard in Resources */,
+				9FC5EC622179E85A00FBE21E /* Assets.xcassets in Resources */,
+				9FC5EC602179E85900FBE21E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC692179E85A00FBE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC742179E85A00FBE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC5EC532179E85900FBE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EC5D2179E85900FBE21E /* ViewController.swift in Sources */,
+				9FC5EC5B2179E85900FBE21E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC672179E85A00FBE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EC702179E85A00FBE21E /* PicassoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EC722179E85A00FBE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EC7B2179E85A00FBE21E /* PicassoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC5EC6D2179E85A00FBE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC5EC562179E85900FBE21E /* Picasso */;
+			targetProxy = 9FC5EC6C2179E85A00FBE21E /* PBXContainerItemProxy */;
+		};
+		9FC5EC782179E85A00FBE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC5EC562179E85900FBE21E /* Picasso */;
+			targetProxy = 9FC5EC772179E85A00FBE21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FC5EC5E2179E85900FBE21E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC5EC5F2179E85900FBE21E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FC5EC632179E85A00FBE21E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC5EC642179E85A00FBE21E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC5EC7D2179E85A00FBE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC5EC7E2179E85A00FBE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC5EC802179E85A00FBE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picasso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.Picasso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC5EC812179E85A00FBE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picasso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.Picasso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FC5EC832179E85A00FBE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicassoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.PicassoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picasso.app/Picasso";
+			};
+			name = Debug;
+		};
+		9FC5EC842179E85A00FBE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicassoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.PicassoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picasso.app/Picasso";
+			};
+			name = Release;
+		};
+		9FC5EC862179E85A00FBE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicassoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.PicassoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picasso;
+			};
+			name = Debug;
+		};
+		9FC5EC872179E85A00FBE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicassoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsauriTeam.PicassoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picasso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC5EC522179E85900FBE21E /* Build configuration list for PBXProject "Picasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5EC7D2179E85A00FBE21E /* Debug */,
+				9FC5EC7E2179E85A00FBE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC5EC7F2179E85A00FBE21E /* Build configuration list for PBXNativeTarget "Picasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5EC802179E85A00FBE21E /* Debug */,
+				9FC5EC812179E85A00FBE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC5EC822179E85A00FBE21E /* Build configuration list for PBXNativeTarget "PicassoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5EC832179E85A00FBE21E /* Debug */,
+				9FC5EC842179E85A00FBE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC5EC852179E85A00FBE21E /* Build configuration list for PBXNativeTarget "PicassoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5EC862179E85A00FBE21E /* Debug */,
+				9FC5EC872179E85A00FBE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC5EC4F2179E85900FBE21E /* Project object */;
+}
